@@ -1,4 +1,4 @@
-psd = 27182818284590
+psd = int(input())
 def dbcon():
     # Initial Script to create database schema
     import mysql.connector as myc
