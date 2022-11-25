@@ -1,5 +1,5 @@
 #Function to retuen the number of seats available in a hall
-psd = 27182818284590
+psd = int(input())
 def getseats(hno):
     try:
         import mysql.connector as myc
